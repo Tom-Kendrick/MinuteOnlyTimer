@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+input[type="number"] {
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  width: 5rem;
+  font-size: 1rem;
+  background-color: #444;
+  color: #fff;
+  border: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* Dark mode theme */
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+label {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+input {
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #282828;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+button {
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start {
+  background-color: #4CAF50;
+  color: #fff;
+  margin-right: 20px;
+}
+
+#pause {
+  background-color: #2196F3;
+  color: #fff;
+  margin-right: 20px;
+}
+
+#stop {
+  background-color: #f44336;
+  color: #fff;
+}
+
+#timer {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 100px;
+  margin-top: 50px;
+}
